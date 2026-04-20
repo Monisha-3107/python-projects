@@ -1,34 +1,32 @@
-# Monisha S - Python Portfolio
+# Network Authentication System
 
-## About Me
-BCA 2nd Year student passionate about software development and data analysis.
+## Description
+This is a simple Python-based authentication system that validates users using IP address and password.
 
----
-
-## Projects
-
-### Data Visualization Project
-- Analyzed housing dataset using Python
-- Created charts for price distribution, AC vs Non-AC, and parking analysis
-- Performed price gap analysis
-
-### Network Authentication System
-- Python-based authentication system
-- Validates user using IP address and password
-
----
+## Features
+- User authentication using IP and password
+- Simple logic and easy to understand
+- Console-based input and output
 
 ## Technologies Used
 - Python
-- Pandas
-- Matplotlib
 
----
+## Files
+- main.py – Main Python program
 
-## Internship
-Completed Python Internship at Elewayte
+## How to Run
+1. Open terminal or command prompt
+2. Run the program:
+   python main.py
 
----
+## Example Output
+Enter IP address: 194.24.31.56  
+Enter password: Mike@123  
+Valid user  
+
+Enter IP address: 194.23.45  
+Enter password: mike1234  
+Invalid user  
 
 ## Author
 Monisha S
